@@ -36,3 +36,11 @@ var jsonOsoby = {
          }
      ]
 }
+console.log(jsonOsoby);
+
+
+jsonOsoby.osoby[2].zainteresowania.forEach( function ( element,index) {
+	console.log(element.nazwa);
+});
+
+console.log(jsonOsoby.osoby[0].wzrost);
